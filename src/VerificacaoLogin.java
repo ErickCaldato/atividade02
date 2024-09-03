@@ -11,7 +11,7 @@ public class VerificacaoLogin {
         String usuario = scanner.next();
 
         System.out.print("Digite a senha:" );
-        String senha = scanner.next():
+        String senha = scanner.next();
 
         if (usuario.equals (usuarioCorreto) && senha.equals(senhaCorreta)) {
             System.out.println("login bem-sucedido!");
