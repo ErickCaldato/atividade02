@@ -20,7 +20,7 @@ public class CalculodeDesconto {
             percentualDesconto = 5;
         }
 
-        desconto + (percentualDesconto / 100.0) * valorCompra;
+        desconto = (percentualDesconto / 100.0) * valorCompra;
         double valorFinal = valorCompra - desconto;
 
         System.out.printf("Valor original da compra: R$ &.2f%n", valorCompra);

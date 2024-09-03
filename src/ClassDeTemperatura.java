@@ -10,10 +10,9 @@ public class ClassDeTemperatura {
         if (temperatura > 30) {
             System.out.println("A temperatura está quente.");
         }
-        else if (temperatura >= 15 && temperatura <= 30); {
+        else if (temperatura >= 15 && temperatura <= 30) {
             System.out.println("A temperatura está agradevel.");
-        }
-        else {
+        }else {
             System.out.println("A temperatura está frio.");
         }
         scanner.close();

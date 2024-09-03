@@ -11,7 +11,8 @@ public class CalculadoraSimples {
         double numero2 = scanner.nextDouble();
 
         System.out.print("Escolha a operação (+, -. *. /): ");
-        char operacao = scanner.next(),charAt(0);
+        String operacao = scanner.next();
+
         double resultado;
 
         switch (operacao) {
@@ -19,7 +20,7 @@ public class CalculadoraSimples {
 
             System.out.println("Resultado: " + resultado);
             break;
-            case '-'
+            case '-';
 
         }
     }
